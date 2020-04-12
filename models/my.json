@@ -1,0 +1,1013 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "trip",
+        "model": "addtrip"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "geofence",
+        "model": "geofence"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "accounts",
+        "model": "device"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "accounts",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "listener",
+        "model": "location_pack"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "listener",
+        "model": "login_pack"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "listener",
+        "model": "new_device"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "listener",
+        "model": "single_pack"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "listener",
+        "model": "status_pack"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "listener",
+        "model": "temp_login"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "calcserv",
+        "model": "alert"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "calcserv",
+        "model": "api1"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "calcserv",
+        "model": "ray"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "calcserv",
+        "model": "tickets"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "obfhfw4ufyljjmkajd4tgvwudeknwblp",
+    "fields": {
+        "session_data": "YTg0MTExNjI0OTYxODkzOGJkM2U4NDllY2I1ZmY5OWZlY2JhOTJlNDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJiN2UyNDIyMjNiNTM4MTE1NzJhYmMwOWE3ODVmNDY0M2U3NDZlMTIxIn0=",
+        "expire_date": "2020-04-24T12:03:41.253Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "so714k23bdpiqhp6ba8j66e9llf73jvn",
+    "fields": {
+        "session_data": "YTg0MTExNjI0OTYxODkzOGJkM2U4NDllY2I1ZmY5OWZlY2JhOTJlNDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJiN2UyNDIyMjNiNTM4MTE1NzJhYmMwOWE3ODVmNDY0M2U3NDZlMTIxIn0=",
+        "expire_date": "2020-04-24T08:31:00.762Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "sz50fv4kcentp84za8dj9g04t2hhxp1m",
+    "fields": {
+        "session_data": "YTg0MTExNjI0OTYxODkzOGJkM2U4NDllY2I1ZmY5OWZlY2JhOTJlNDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJiN2UyNDIyMjNiNTM4MTE1NzJhYmMwOWE3ODVmNDY0M2U3NDZlMTIxIn0=",
+        "expire_date": "2020-04-24T11:18:06.998Z"
+    }
+},
+{
+    "model": "accounts.device",
+    "pk": 1,
+    "fields": {
+        "Name": "reymond",
+        "dev_id": "I1586510825556",
+        "Vehicle_Number": "",
+        "Driver_phone_no": "",
+        "Vehicle_Type": "",
+        "Sim_Number": "",
+        "IMEI_Number": "866968031474274",
+        "Device_Model": "",
+        "Vehicle_Licence_No": "",
+        "Device_Timezone": "",
+        "created_user": "joseph"
+    }
+},
+{
+    "model": "listener.single_pack",
+    "pk": 1,
+    "fields": {
+        "device_imei": "866968031474274",
+        "incoming_addr": "('106.203.2.49', 1181)",
+        "latitude": "12.93189",
+        "longitude": "79.87547",
+        "speed": "0",
+        "status": "stop",
+        "direction": "310",
+        "odometer": 0.0,
+        "gas_and_oil": "gas oil and electricity connected",
+        "engine_status": "OFF",
+        "gps_status": "GPS tracking is on",
+        "voltage_level": "Very High",
+        "charge_status": "Charge On",
+        "gsm_signal": "strong signal",
+        "acc": "ACC Low",
+        "satellites": "7",
+        "gps": "Deactivated",
+        "alarm": "normal",
+        "gps_alarm": "Normal",
+        "language": "English",
+        "mcc": "404",
+        "mnc": "0",
+        "lac": "22463",
+        "switch": "data",
+        "cell_id": "52651",
+        "device_date": "11-4-2020 1:50:6",
+        "serv_date": "10-04-2020 23:21:37",
+        "last_statuspack": "10-04-2020 23:21:37",
+        "last_datapack": "10-04-2020 23:20:07",
+        "Driver_Name": "reymond",
+        "Device_Id": "1",
+        "Vehicle_Number": "",
+        "Vehicle_Type": "",
+        "Sim_Number": "",
+        "IMEI_Number": "866968031474274",
+        "Device_Model": "",
+        "Vehicle_Licence_No": "",
+        "Device_Timezone": "",
+        "created_user": "joseph"
+    }
+},
+{
+    "model": "listener.login_pack",
+    "pk": 1,
+    "fields": {
+        "device_imei": "866968031474274",
+        "incoming_addr": "('106.203.2.49', 1181)",
+        "db_time": "15:07:24.309",
+        "db_date": "2020-04-10"
+    }
+},
+{
+    "model": "calcserv.ray",
+    "pk": 1,
+    "fields": {
+        "vin": "1",
+        "date": "2020-04-11",
+        "time": "14:42:54",
+        "status": "Inactive",
+        "startlocation": "12.93189, 79.87547",
+        "startodometer": 0.0,
+        "running": "00:00:00",
+        "idle": "00:00:00",
+        "stop": "00:00:00",
+        "inactive": "00:00:10",
+        "endodometer": 0.0,
+        "endlocation": "12.93189, 79.87547",
+        "distance": 0.0,
+        "average": 0,
+        "current_speed": 0,
+        "maxstop": 0,
+        "maxspeed": 0,
+        "overspeed": 0,
+        "alert": 0,
+        "noidle": 0,
+        "deviceImeiNo": "866968031474274",
+        "plateNumber": "",
+        "No_of_iterations": 0,
+        "latitude": "12.93189",
+        "longitude": "79.87547",
+        "direction": "310",
+        "engine_current": "Inactive",
+        "Name": null,
+        "Phone_number": null,
+        "Device_Id": null,
+        "Vehicle_Type": "",
+        "Sim_Number": "",
+        "Device_Model": "",
+        "Vehicle_Licence_No": null,
+        "Device_Timezone": "",
+        "created_user": null,
+        "linked_sub_user": null
+    }
+},
+{
+    "model": "calcserv.api1",
+    "pk": 1,
+    "fields": {
+        "Total": "1",
+        "Running": "0",
+        "Idle": "0",
+        "Stop": "1",
+        "Inactive": "0",
+        "vin": null,
+        "No_of_overspeed": "temperarily unavailable",
+        "No_of_geofence": "temperarily unavailable"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 4,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 5,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 5,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 5,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 5,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add add trip",
+        "content_type": 6,
+        "codename": "add_addtrip"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change add trip",
+        "content_type": 6,
+        "codename": "change_addtrip"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete add trip",
+        "content_type": 6,
+        "codename": "delete_addtrip"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view add trip",
+        "content_type": 6,
+        "codename": "view_addtrip"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add geofence",
+        "content_type": 7,
+        "codename": "add_geofence"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change geofence",
+        "content_type": 7,
+        "codename": "change_geofence"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete geofence",
+        "content_type": 7,
+        "codename": "delete_geofence"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view geofence",
+        "content_type": 7,
+        "codename": "view_geofence"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add device",
+        "content_type": 8,
+        "codename": "add_device"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change device",
+        "content_type": 8,
+        "codename": "change_device"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete device",
+        "content_type": 8,
+        "codename": "delete_device"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view device",
+        "content_type": 8,
+        "codename": "view_device"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 9,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 9,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 9,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 9,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add location_pack",
+        "content_type": 10,
+        "codename": "add_location_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change location_pack",
+        "content_type": 10,
+        "codename": "change_location_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete location_pack",
+        "content_type": 10,
+        "codename": "delete_location_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view location_pack",
+        "content_type": 10,
+        "codename": "view_location_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add login_pack",
+        "content_type": 11,
+        "codename": "add_login_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change login_pack",
+        "content_type": 11,
+        "codename": "change_login_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete login_pack",
+        "content_type": 11,
+        "codename": "delete_login_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view login_pack",
+        "content_type": 11,
+        "codename": "view_login_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add new_device",
+        "content_type": 12,
+        "codename": "add_new_device"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change new_device",
+        "content_type": 12,
+        "codename": "change_new_device"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete new_device",
+        "content_type": 12,
+        "codename": "delete_new_device"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view new_device",
+        "content_type": 12,
+        "codename": "view_new_device"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add single_pack",
+        "content_type": 13,
+        "codename": "add_single_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change single_pack",
+        "content_type": 13,
+        "codename": "change_single_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete single_pack",
+        "content_type": 13,
+        "codename": "delete_single_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view single_pack",
+        "content_type": 13,
+        "codename": "view_single_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add status_pack",
+        "content_type": 14,
+        "codename": "add_status_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change status_pack",
+        "content_type": 14,
+        "codename": "change_status_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete status_pack",
+        "content_type": 14,
+        "codename": "delete_status_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view status_pack",
+        "content_type": 14,
+        "codename": "view_status_pack"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add temp_login",
+        "content_type": 15,
+        "codename": "add_temp_login"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change temp_login",
+        "content_type": 15,
+        "codename": "change_temp_login"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete temp_login",
+        "content_type": 15,
+        "codename": "delete_temp_login"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view temp_login",
+        "content_type": 15,
+        "codename": "view_temp_login"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add alert",
+        "content_type": 16,
+        "codename": "add_alert"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change alert",
+        "content_type": 16,
+        "codename": "change_alert"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete alert",
+        "content_type": 16,
+        "codename": "delete_alert"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view alert",
+        "content_type": 16,
+        "codename": "view_alert"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add api1",
+        "content_type": 17,
+        "codename": "add_api1"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change api1",
+        "content_type": 17,
+        "codename": "change_api1"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete api1",
+        "content_type": 17,
+        "codename": "delete_api1"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view api1",
+        "content_type": 17,
+        "codename": "view_api1"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add ray",
+        "content_type": 18,
+        "codename": "add_ray"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change ray",
+        "content_type": 18,
+        "codename": "change_ray"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete ray",
+        "content_type": 18,
+        "codename": "delete_ray"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view ray",
+        "content_type": 18,
+        "codename": "view_ray"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add tickets",
+        "content_type": 19,
+        "codename": "add_tickets"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change tickets",
+        "content_type": 19,
+        "codename": "change_tickets"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete tickets",
+        "content_type": 19,
+        "codename": "delete_tickets"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view tickets",
+        "content_type": 19,
+        "codename": "view_tickets"
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$180000$Y0M8cgj2DvdT$glJS1W0SARFn9cj1nCdv7O0lqGMezUQ4qMZi9Kn4UG0=",
+        "last_login": "2020-04-10T12:03:41.240Z",
+        "is_superuser": false,
+        "username": "joseph",
+        "first_name": "",
+        "last_name": "",
+        "email": "edwardsteve2011@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-04-10T08:27:38.836Z",
+        "is_subuser": false,
+        "Created_by": "none",
+        "pwd": "none",
+        "groups": [],
+        "user_permissions": [],
+        "linked_Devices": []
+    }
+}
+]
