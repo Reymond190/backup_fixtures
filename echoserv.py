@@ -15,6 +15,7 @@ class Echo(Protocol):
         As soon as any data is received, write it back.
         """
         self.transport.write(data)
+        print(data)
 
     def connectionLost(self, reason):
         print(reason)
