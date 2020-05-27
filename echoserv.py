@@ -38,7 +38,8 @@ def main():
     yield rc.set("foo", "bar")
     v = yield rc.get("foo")
     print(v)
-    reactor.run()
+
 
 if __name__ == '__main__':
-    main()
+    main().addCallback(lambda ign: reactor.stop())
+    reactor.run()
