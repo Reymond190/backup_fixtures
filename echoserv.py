@@ -30,13 +30,10 @@ class Echo(Protocol):
 def main():
     rc = redis.Connection()
     print(rc)
-    rc.set("foo", "bar")
     f = Factory()
     f.protocol = Echo
     reactor.listenTCP(8000, f)
     reactor.run()
-    print(rc.get("foo"))
-    rc.disconnect()
 
 if __name__ == '__main__':
     main()
