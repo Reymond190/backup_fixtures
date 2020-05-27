@@ -1,2 +1,3 @@
 twisted[tls]
 service_identity
+txredisapi
