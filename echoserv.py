@@ -7,8 +7,6 @@ from twisted.internet.protocol import Protocol, Factory
 from twisted.internet import reactor
 import txredisapi as redis
 
-from twisted.internet import defer
-
 ### Protocol Implementation
 
 # This is just about the simplest possible protocol
@@ -28,18 +26,12 @@ class Echo(Protocol):
     def connectionLost(self, reason):
         print(reason)
 
-@defer.inlineCallbacks
+
 def main():
-    rc = yield redis.Connection()
-    print(rc)
     f = Factory()
     f.protocol = Echo
     reactor.listenTCP(8000, f)
-    yield rc.set("foo", "bar")
-    v = yield rc.get("foo")
-    print(v)
-
+    reactor.run()
 
 if __name__ == '__main__':
-    main().addCallback(lambda ign: reactor.stop())
-    reactor.run()
+    main()
