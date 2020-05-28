@@ -6,6 +6,7 @@
 from twisted.internet.protocol import Protocol, Factory
 from twisted.internet import reactor
 import txredisapi as redis
+from twisted.protocols.basic import LineReceiver
 
 ### Protocol Implementation
 
@@ -19,6 +20,7 @@ class Echo(Protocol):
         """
         As soon as any data is received, write it back.
         """
+
         self.transport.write(data)
         print(self.transport.getPeer())
         print(data)

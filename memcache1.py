@@ -1,18 +1,20 @@
-from twisted.internet import reactor, protocol
-from twisted.protocols.memcache import MemCacheProtocol, DEFAULT_PORT
-
-d = protocol.ClientCreator(reactor, MemCacheProtocol
-        ).connectTCP("localhost", DEFAULT_PORT)
-
-print(d)
-print('connected')
-def doSomething(proto):
-    # Here you call the memcache operations
-    print('do something')
-    return proto.set("mykey", "a lot of data")
+import asyncio
+from asyncio_dispatch import Signal
 
 
-print('before callback')
-d.addCallback(doSomething)
-print('after callback')
-reactor.run()
+@asyncio.coroutine
+def callback(**kwargs):
+    print('callback was called!')
+
+
+loop = asyncio.get_event_loop()
+
+# create the signal
+signal = Signal(loop=loop)
+
+# connect the callback to the Signal - This is a coroutine!
+loop.run_until_complete(signal.connect(callback))
+
+# send the signal - This is also a coroutine!
+print('sending the signal.')
+loop.run_until_complete(signal.send())
