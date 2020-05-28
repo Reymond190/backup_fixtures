@@ -6,20 +6,32 @@
 from twisted.internet.protocol import Protocol, Factory
 from twisted.internet import reactor
 import txredisapi as redis
+
+from twisted.internet import defer
 from twisted.protocols.basic import LineReceiver
 
 ### Protocol Implementation
 
 # This is just about the simplest possible protocol
+
+
+
+
 class Echo(Protocol):
 
     def connectionMade(self):
         print(self.transport.getPeer())
 
+    @defer.inlineCallbacks
     def dataReceived(self, data):
         """
         As soon as any data is received, write it back.
         """
+
+        print('insid main')
+        rc = yield redis.Connection()
+        print(rc)
+        a = yield rc.set("data", data)
 
         self.transport.write(data)
         print(self.transport.getPeer())
