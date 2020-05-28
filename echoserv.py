@@ -30,7 +30,6 @@ class Echo(Protocol):
 
         print('insid main')
         rc = yield redis.Connection()
-        print(rc)
         a = yield rc.set("data", data)
 
         self.transport.write(data)
