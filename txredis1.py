@@ -10,7 +10,6 @@ def main():
     rc = yield redis.Connection()
     print (rc)
 
-    yield rc.set("foo1", "bar")
     v = yield rc.get("foo")
     print ("foo:", repr(v))
 
