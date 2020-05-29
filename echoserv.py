@@ -2,6 +2,7 @@
 
 # Copyright (c) Twisted Matrix Laboratories.
 # See LICENSE for details.
+import binascii
 import sys
 
 from twisted.internet.protocol import Protocol, Factory
@@ -16,9 +17,8 @@ from twisted.protocols.basic import LineReceiver
 # This is just about the simplest possible protocol
 
 def helo(data):
-    asd = str(data)
-    for i in asd:
-        print(i)
+    asd = binascii.hexlify(data)
+    asd = str(asd)
     return asd
 
 
@@ -35,12 +35,13 @@ class Echo(Protocol):
 
 
         print('sdfjskdfjlskjd')
+        ol = helo(data)
 
 
 
         self.transport.write('null'.encode())
         print(self.transport.getPeer())
-        print(data)
+        print(ol)
 
     def connectionLost(self, reason):
         print(reason)
