@@ -2,11 +2,12 @@
 
 # Copyright (c) Twisted Matrix Laboratories.
 # See LICENSE for details.
+import sys
 
 from twisted.internet.protocol import Protocol, Factory
 from twisted.internet import reactor
 import txredisapi as redis
-
+import redis
 from twisted.internet import defer
 from twisted.protocols.basic import LineReceiver
 
@@ -14,6 +15,11 @@ from twisted.protocols.basic import LineReceiver
 
 # This is just about the simplest possible protocol
 
+def helo(data):
+    asd = str(data)
+    for i in asd:
+        print(i)
+    return asd
 
 
 
@@ -22,17 +28,17 @@ class Echo(Protocol):
     def connectionMade(self):
         print(self.transport.getPeer())
 
-    @defer.inlineCallbacks
     def dataReceived(self, data):
         """
         As soon as any data is received, write it back.
         """
 
-        print('insid main')
-        rc = yield redis.Connection()
-        a = yield rc.set("data", data)
 
-        self.transport.write(data)
+        print('sdfjskdfjlskjd')
+
+
+
+        self.transport.write('null'.encode())
         print(self.transport.getPeer())
         print(data)
 
@@ -43,7 +49,7 @@ class Echo(Protocol):
 def main():
     f = Factory()
     f.protocol = Echo
-    reactor.listenTCP(8000, f)
+    reactor.listenTCP(8888, f)
     reactor.run()
 
 if __name__ == '__main__':
